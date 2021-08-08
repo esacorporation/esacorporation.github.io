@@ -1,0 +1,33 @@
+*{
+    scroll-behavior: smooth;
+}
+.top-div{
+    background-color:#02052b;
+    height: 200px;
+}
+.top-div .text-2{
+    font-size: small;
+}
+.top-div .text-1{
+    font-size: 24px;
+}
+.boxes{
+    width: 300px;
+    height: 300px;
+    background-color: #02052b;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+
+    z-index: 1000;
+    display: none;
+
+}
+.img:hover .boxes {
+    display: block;
+}
+@media (max-width:768px) {
+    .boxes{
+        left: 5%;
+    }
+}
